@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.cardFooter{
+  justify-content: space-between;
+  align-items: center;
+}
+.userProfile{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+.cardImg{
+  width: 100%;
+}
+._fiara1{
+  width: 100% !important;
+  height: 200px;
+}
+
+._fiaraDetail{
+  width: 100% !important;
+  height: auto;
+}
+._userName{
+  margin-left: 5px;
+}
+.userName{
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+.dateComment{
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+}
+.cardFooter{
+  display: flex;
+}
+.img-profile{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.contentHeader{
+  align-items: center;
+}
+
+.contentHeader .listHeader{
+  justify-content: space-between;
+}
+.page-item{
+  cursor: pointer;
+}
+
+.headerTitle{
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(54, 54, 54);
+}
+.subTitleHeader{
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(54, 54, 54);
+}
+
+._homePage{
+  margin-top: 6rem;
+}
+
+@media  (max-width: 436px){
+  .listHeader{
+    justify-content: flex-start;
+  }
+}
+
+@media  (max-width: 767px){
+  ._fiara1{
+    width: 100% !important;
+    height: auto;
+  }
+}

@@ -1,0 +1,7 @@
+.loginContainer{
+  margin: auto;
+  transform: translateY(50%);
+}
+.sectionBtn{
+  display: block;
+}
